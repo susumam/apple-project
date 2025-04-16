@@ -1,0 +1,243 @@
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iPhoneHeader{
+    background-color:white;
+    display: flex;
+    height: 43px;
+    align-items: center;
+    z-index: 1;
+
+}
+.iPhoneHeader li{
+    list-style: none;
+    font-size: 12px;
+}
+.iPhoneHeader a{
+    text-decoration: none;
+    color: black;
+}
+.ul1{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+
+.ul1 > li {
+     flex-grow: 1;
+    text-align: center; 
+}
+
+
+.ul1 img{
+    width: 20x;
+}
+
+.ul2, .ul3{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ul3{
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-left: 30px;
+    gap: 30px;
+}
+.li--ul--2{
+    flex-grow: 1;
+}
+.search{
+    filter: invert(1);
+    align-items: center;
+
+}
+.ul3 img{
+    width: 12px;
+}
+
+.fa-magnifying-glass{
+    font-size: 16px;
+}
+.svg--logo{
+    filter: invert(1);
+}
+.svg--logo1{
+    filter: invert(1);
+}
+@media(max-width:767px){
+    .ul2{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .ul3{
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    }
+}
+
+    .AppleBag{
+    background-image: url('AppleBag.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.iPhone16{
+    background-image: url('iphone16pro.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+@media(max-width:767px){
+    .iPhone16{
+        background-image: url('iPhone16verical.jpg');
+    }
+}
+
+
+
+.iPhone161{
+    background-image: url('hero_iphone16_avail__euwzls69btea_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+@media(max-width:767px){
+    .iPhone161{
+        background-image: url('iPhone16vertical.jpg');
+    }
+}
+.AirpodsandiPads{
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+
+}
+.ipad{
+background-image: url('ipad-lg.jpg');
+background-size: cover;
+background-position: center;
+justify-content: center;
+height: 500px;
+width: 98%;
+}
+.AirPods{
+background-image: url('promo_airpods_pro_2_avail__vkitqi3okwie_small.jpg');
+background-size: cover;
+height: 500px;
+width: 100%;
+position: relative;
+}
+/*
+.AirposText{
+    position: absolute;
+}
+.AirpodsButton{
+    position: absolute;
+}
+*/
+.AppleWatch{
+    background-image: url('apple-watch.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 98%;
+    text-align: center;
+}
+.Macbook{
+    background-image: url('Macbook.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+.AppleTrade{
+    background-image: url('iPhoneSeries.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 98%;
+}
+.AppleCard{
+    background-image: url('AppleCard.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.paragraph p{
+    font-size: small;
+    padding: 5px !important;
+}
+.Arrange li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+.Arrange a{
+    text-decoration: none;
+    color: inherit;
+}
+.Arrange span{
+    font-weight: 700;
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    padding-top: 15px;
+}
+.Arrange span a{
+    text-decoration: none;
+}
+.Arrange a:hover{
+  
+    text-decoration: underline;
+}
+.fa-sort-desc{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+@media(max-width:767px){
+
+.svg--logo{
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+}
+.info{
+    font-size: 0.9rem;
+}
+.last li{
+    list-style: none;
+    font-size: 0.9rem;
+}
+.last a{
+    text-decoration: none;
+    color: inherit;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.America{
+    position: absolute;
+    right: 10%;
+}
